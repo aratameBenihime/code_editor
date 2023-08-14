@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.collpaseEditor{
+    flex-grow: 0 !important;
+}
+
+.collpaseEditor .CodeMirror-scroll{
+    position: absolute;
+}
